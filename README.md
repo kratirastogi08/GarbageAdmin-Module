@@ -1,7 +1,7 @@
 # GarbageAdmin-Module
 <div>This app facilitate admin to register garbage collectors and assign them dates according to the schedule</div>
 <br>
-<div>This is admin side working module</div>
+<div>This is <b>admin side</b> working module</div>
 <br>
 <div float="left">
 <img src="https://user-images.githubusercontent.com/46498913/58092849-c178e480-7bea-11e9-93ba-2ec2f8e438c0.jpg" height="400px" width="200px"</img>
