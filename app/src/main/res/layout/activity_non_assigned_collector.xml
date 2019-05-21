@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NonAssignedCollector">
+
+
+    <RadioButton
+        android:id="@+id/r1"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="53dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="68dp"
+        android:text="Daily"
+        android:textColor="#000306"
+        android:textSize="25sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RadioButton
+        android:id="@+id/r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="176dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="34dp"
+
+        android:text="After every three days"
+        android:textColor="#000306"
+        android:textSize="25sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toTopOf="@+id/r4"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/r1" />
+
+    <RadioButton
+        android:id="@+id/r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="44dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="36dp"
+        android:text="After every five days"
+        android:textColor="#000306"
+        android:textSize="25sp"
+        app:fontFamily="@font/baloo_bhai"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3" />
+
+    <RadioButton
+        android:id="@+id/r5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="40dp"
+        android:text="After every seven days"
+        android:textColor="#000306"
+        android:textSize="25sp"
+        app:fontFamily="@font/baloo_bhai"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/r4" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="50dp"
+        android:background="#fabb1c"
+        android:text="SCHEDULE"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r5"
+        app:layout_constraintVertical_bias="0.086" />
+</android.support.constraint.ConstraintLayout>

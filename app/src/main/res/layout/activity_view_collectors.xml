@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewCollectors">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="416dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="59dp"
+        android:text="Select the date below"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#020202"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="339dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginRight="163dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="29dp"
+        android:text="Show Calendar"
+        android:background="#fabb1c"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginBottom="62dp"
+
+        android:layout_marginTop="55dp"
+
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toTopOf="@+id/assign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cal" />
+
+    <Button
+        android:id="@+id/assign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="32dp"
+        android:text="ASSIGN"
+        android:background="#fabb1c"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="55dp"
+        android:text="Number of assigned collectors:"
+        android:textSize="15sp"
+        android:textColor="#020202"
+        android:visibility="invisible"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toTopOf="@+id/assign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cal" />
+
+    <TextView
+        android:id="@+id/tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginRight="190dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#020202"
+        android:visibility="invisible"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toTopOf="@+id/assign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</android.support.constraint.ConstraintLayout>
